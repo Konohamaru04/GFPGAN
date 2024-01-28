@@ -1,0 +1,13 @@
+name: gfpgan_cuda
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - cudatoolkit=11.8.0=hd77b12b_0
+  - vc=14.2=h21ff451_1
+  - vs2015_runtime=14.27.29016=h5e58377_2
+prefix: C:\Users\Admin\.conda\envs\gfpgan_cuda
+pip:
+  torch>=1.13.0+cu116
+  torchvision>=0.13.0+cu116
+  torchaudio>=0.13.0 --extra-index-url https://download.pytorch.org/whl/cu116
